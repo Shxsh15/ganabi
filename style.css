@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #fff;
+}
+
+header {
+    position: fixed;        
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding: 25px 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+}
+
+.gia {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.gia button {
+    font-size: 20px;
+    padding: 10px 36px;
+    background: #8b4513;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.gia button:hover {
+    transform: scale(1.1);
+}
+
+body > *:not(header) {
+    margin-top: 100px; 
+}
+
+.achi {
+    color: #8b4513;
+    padding: 200px;
+    text-align: center;
+    font-size: 60px;
+    background-image: url("photo/ChatGPT\ Image\ Mar\ 9\,\ 2026\,\ 03_22_09\ AM.png"); /* fixed path */
+    background-size: cover;       /* makes image fill section */
+    background-position: center;  /* centers image */
+    background-repeat: no-repeat; /* prevents tiling */
+    height: 400px;
+}
